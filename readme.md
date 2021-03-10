@@ -36,6 +36,6 @@ curl --location --request GET 'http://localhost:3000/api/extractTags' \
 
 * Opening tags that have no corresponding closing tag. In this case the whole message should be
 rejected.
-* Missing <total>. In this case the whole message should be rejected.
-* Missing <cost_centre>. In this case the ‘cost centre’ field in the output should be defaulted to
+* Missing total tag In this case the whole message should be rejected.
+* Missing cost_centre tag In this case the ‘cost centre’ field in the output should be defaulted to
 ‘UNKNOWN’.
